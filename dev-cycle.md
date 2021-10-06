@@ -22,9 +22,11 @@ Data Structures:
 - [ ] Camera
 - [ ] Terrain
 - [ ] Sky Dome
-- [ ] Fog 
+- [ ] Fog
+- [ ] Background music
 
 Algorithms:
+- [ ] Creating all of the necessary game screen
 - [ ] Mouse not moving from game screen
 - [ ] Walking
 - [ ] Jumping
@@ -32,6 +34,7 @@ Algorithms:
 - [ ] Removing Cube
 - [ ] Putting Cube
 - [ ] 10 texture cube switch on keyboard
+- [ ] Make the music run on the background
 - [ ] Setup function for making the game ready to launch
 - [ ] Main function for running the application
 
@@ -46,11 +49,3 @@ Algorithms:
 ### Documentation
 
 - [ ] Writing a nice README
-
-
-
-
-
-
-
-
