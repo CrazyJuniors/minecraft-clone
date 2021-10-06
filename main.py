@@ -10,8 +10,19 @@ from pyglet.window import key, mouse
 
 
 # Data Structures
-class Screen():
-    pass
+class GameScreen():
+    """This node is the game screen which minecraft is played in"""
+    window = pyglet.window.Window(1280, 720, resizable=False)
+    window.set_caption('CrazyJuniors-Minecraft')
+
+    def __init__(self):
+        pass
+
+    def __str__(self):
+        return "Game Screen"
+
+    def get_game_screen(self):
+        return self.window
 
 
 class Cube():
@@ -86,7 +97,10 @@ def setup():
 
 
 def main():
-    print("currently under development ...")
+    new_window = GameScreen()
+
+
+    pyglet.app.run()
 
 
 if __name__ == '__main__':
