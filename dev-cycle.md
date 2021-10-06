@@ -16,7 +16,7 @@ Optimzasyon yapacagiz bir gun elbet.
 ### Design
 
 Data Structures:
-- [ ] Screen
+- [x] Screen
 - [ ] Cube
 - [ ] Player
 - [ ] Camera
@@ -25,9 +25,11 @@ Data Structures:
 - [ ] Fog
 - [ ] Background music
 
+
 Algorithms:
 - [ ] Creating all of the necessary game screen
 - [ ] Mouse not moving from game screen
+- [ ] Gravity
 - [ ] Walking
 - [ ] Jumping
 - [ ] First Person Camera
